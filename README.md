@@ -18,7 +18,7 @@ For Ubuntu 16.04 and 18.04
 ```bash
 apt update -y
 apt upgrade -y
-apt install git php-cli php-soap php-cgi php-mbstring php-curl -y
+apt install git php7.4-cli php7.4-cgi php7.4-soap php7.4-mbstring php7.4-curl php7.4-xml php-memcached -y
 ```
 Clone repo
 
@@ -114,13 +114,13 @@ cp zpush.ini /etc/php.d/zpush.ini
 For Ubuntu 16.04
 
 ```bash
-cp zpush.ini /etc/php/7.0/cgi/conf.d/10-zpush.ini
+cp zpush.ini /etc/php/7.4/cgi/conf.d/10-zpush.ini
 ```
 
 For Ubuntu 18.04
 
 ```bash
-cp zpush.ini /etc/php/7.2/cgi/conf.d/10-zpush.ini
+cp zpush.ini /etc/php/7.4/cgi/conf.d/10-zpush.ini
 ```
 
 Restart Zimbra Mailbox
